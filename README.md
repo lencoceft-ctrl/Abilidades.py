@@ -32,3 +32,18 @@ def usar_habilidade(personagem):
 # Testando o sistema
 usar_habilidade("Queiro-mon")
 
+
+____________________________________________________
+
+
+import math
+
+def calcular_vibracao(tempo_atual, intensidade=2):
+    # Usamos o SENO para criar um movimento de vai-e-vem suave
+    # Isso faz o ovo vibrar em torno do centro (X=5)
+    vibracao = math.sin(tempo_atual * 20) * intensidade
+    return vibracao
+
+# No Dia 13, o GDevelop vai somar esse valor à posição X do ovo
+
+
